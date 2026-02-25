@@ -13,7 +13,7 @@ const industries = [
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden flex items-center pt-16 lg:pt-20">
+    <section className="relative h-screen w-full overflow-hidden flex">
       {/* Background Image */}
       <Image
         src="/images/valveHero.jpg"
@@ -35,28 +35,28 @@ export default function Hero() {
       <div className="absolute left-0 top-0 bottom-0 w-1 bg-[#FF8C00] z-20" />
 
       {/* Content */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+      <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-32 lg:pt-40">
         <div className="max-w-4xl">
           {/* Eyebrow */}
           <div className="flex items-center gap-4 mb-8 animate-fade-in-up">
             <div className="w-8 h-px bg-[#FF8C00]" />
             <span className="text-[#FF8C00] text-xs font-semibold tracking-[0.4em] uppercase">
-              Est. Industrial Supply
+              Industrial Supply
             </span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="animate-fade-in-up animate-delay-100 font-black text-white uppercase leading-none tracking-tight mb-6">
-            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl">
-              PRECISION
+          <h1 className="animate-fade-in-up animate-delay-100 font-black text-white leading-none tracking-tight mb-6">
+            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl uppercase">
+              Precision
             </span>
-            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl">
-              PIPING FOR
+            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl uppercase">
+              Piping For
             </span>
-            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-white relative">
-              GLOBAL
-              <span className="relative inline-block ml-4">
-                <span className="relative z-10">INDUSTRY</span>
+            <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl uppercase relative">
+              Global{" "}
+              <span className="relative whitespace-nowrap">
+                <span className="relative z-10">Industry</span>
                 <span className="absolute inset-x-0 bottom-0 h-2 bg-[#FF8C00] z-0 opacity-80" />
               </span>
             </span>
