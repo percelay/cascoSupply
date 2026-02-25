@@ -5,8 +5,7 @@ const industries = [
     name: "Petro-Chemical",
     description:
       "Corrosion-resistant valves and piping for refinery, upstream/downstream, and chemical processing applications.",
-    image:
-      "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=600&q=80",
+    image: "/images/petrochemvalve.jpeg",
     specs: ["NACE MR0175", "API 600", "High H₂S Environments"],
     accent: "left",
   },
@@ -14,8 +13,7 @@ const industries = [
     name: "Power-Utility",
     description:
       "High-pressure, high-temperature valves compliant with ASME power piping codes for steam and feedwater systems.",
-    image:
-      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&q=80",
+    image: "/images/valve5.jpg",
     specs: ["ASME B31.1", "Class 2500", "Steam Service"],
     accent: "right",
   },
@@ -23,8 +21,7 @@ const industries = [
     name: "Pharmaceutical",
     description:
       "Sanitary-grade valves meeting FDA, 3-A, and cGMP standards for bioprocessing and sterile manufacturing.",
-    image:
-      "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&q=80",
+    image: "/images/valve2.jpeg",
     specs: ["FDA 21 CFR", "3-A Sanitary", "cGMP Compliant"],
     accent: "left",
   },
@@ -32,8 +29,7 @@ const industries = [
     name: "Marine",
     description:
       "Bronze, Monel, and duplex stainless steel fittings rated for seawater service and offshore environments.",
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+    image: "/images/marinevalve.jpeg",
     specs: ["ABS / DNV GL", "Seawater Rated", "IMO Standards"],
     accent: "right",
   },
@@ -41,8 +37,7 @@ const industries = [
     name: "Pulp & Paper",
     description:
       "Abrasion and corrosion-resistant valves for pulping liquors, white water, and black liquor service.",
-    image:
-      "https://images.unsplash.com/photo-1580394693981-254f38fd6f37?w=600&q=80",
+    image: "/images/pulppapervalve.jpg",
     specs: ["Slurry Service", "Alloy 20", "High pH Media"],
     accent: "left",
   },
@@ -50,8 +45,7 @@ const industries = [
     name: "Food & Beverage",
     description:
       "Hygienic clamp-end valves and fittings for clean-in-place (CIP) systems, USDA-compliant dairy and food processing.",
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image: "/images/valve3.jpg",
     specs: ["USDA Approved", "CIP Ready", "316L SS Electropolished"],
     accent: "right",
   },

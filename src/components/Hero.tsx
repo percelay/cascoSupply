@@ -13,10 +13,10 @@ const industries = [
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden flex items-center">
+    <section className="relative h-screen w-full overflow-hidden flex items-center pt-16 lg:pt-20">
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&q=85"
+        src="/images/valveHero.jpg"
         alt="Industrial pipeline infrastructure"
         fill
         priority

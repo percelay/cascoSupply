@@ -34,8 +34,7 @@ const products: Product[] = [
     name: "Gate Valve",
     category: "Isolation",
     tagline: "Full-bore shutoff for minimal flow restriction",
-    image:
-      "https://images.unsplash.com/photo-1581094651181-35942459ef62?w=800&q=80",
+    image: "/images/valve1.jpeg",
     badge: "Most Popular",
     specs: {
       pressureRating: "Class 150 – 2500 (ANSI/ASME B16.34)",
@@ -55,8 +54,7 @@ const products: Product[] = [
     name: "Globe Valve",
     category: "Throttling",
     tagline: "Precision flow control for demanding applications",
-    image:
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80",
+    image: "/images/valve2.jpeg",
     specs: {
       pressureRating: "Class 150 – 1500 (ANSI/ASME B16.34)",
       temperatureRange: "-50°F to +1000°F",
@@ -75,8 +73,7 @@ const products: Product[] = [
     name: "Check Valve",
     category: "Non-Return",
     tagline: "Automatic backflow prevention, zero maintenance",
-    image:
-      "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=800&q=80",
+    image: "/images/valve3.jpg",
     specs: {
       pressureRating: "Class 150 – 2500 (ANSI/ASME B16.34)",
       temperatureRange: "-100°F to +1500°F",
@@ -95,8 +92,7 @@ const products: Product[] = [
     name: "Control Valve",
     category: "Automation",
     tagline: "Automated process control for critical systems",
-    image:
-      "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?w=800&q=80",
+    image: "/images/valve4.jpg",
     badge: "New",
     specs: {
       pressureRating: "Class 150 – 900 (ANSI/ASME B16.34)",
